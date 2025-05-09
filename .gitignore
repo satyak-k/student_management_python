@@ -1,0 +1,25 @@
+# Python and Django related ignores
+__pycache__/
+*.pyc
+*.sqlite3
+/media
+/static
+venv/
+*.log
+*.pot
+
+# Django migrations
+/students/migrations/
+!/students/migrations/__init__.py
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other common ignores
+*.swp
+*.bak
+*.env
