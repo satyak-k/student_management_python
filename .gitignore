@@ -4,9 +4,6 @@ __pycache__/
 *.sqlite3
 /media
 /static
-venv/
-*.log
-*.pot
 
 # Django migrations
 /students/migrations/
@@ -14,12 +11,3 @@ venv/
 
 # VS Code
 .vscode/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Other common ignores
-*.swp
-*.bak
-*.env
